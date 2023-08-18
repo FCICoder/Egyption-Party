@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200;1,500;1,600;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200;1,500;1,600;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;1,100&family=Righteous&display=swap');
+
+
+body{
+    background-color:rgb(247, 236, 222);
+}
+
+*{
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+::selection{    
+    background-color:#fec260 ;
+    color: #3ca55c;
+}
+
+
+  /*-------------------------------------------------------------------------- */
+
+  /* Start Home  */
+  #home{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .leftNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1111;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+  }
+
+  .leftNav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    transition: 0.3s;
+    color: white ;
+}
+
+.leftNav a:hover{
+    color:  rgba(214, 46, 51 , 0.4) !important;
+}
+
+.leftNav .Xbtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+    }
+
+    .H_Content{
+        position: relative;
+        top: 50%;
+    }
+
+.H_Content h1  {
+text-align: center;
+font-size: 50px;
+}
+
+.H_Content p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.H_Content span{
+    position: absolute;
+    top: 44%;
+}
+
+.H_Content i{
+    font-size: 30px;
+    color: #FFF;
+    cursor:pointer
+}
+
+  /* End Home */
+ 
+
+/*Start slider section*/
+
+#slider h3{
+    background-color: rgba(216, 20, 27, 0.8);
+    color: white;
+    cursor: pointer;
+}
+
+.S_content {
+    background-color: rgb(241, 215, 166);
+    display: none;
+}
+
+
+/*End slider section*/
+
+
+/*start counter section*/
+
+#duration{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:70vh ;
+    margin-bottom: 10%;    
+}
+
+
+.time{
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top:40% ;
+}
+
+
+/*End counter section*/
+
+
+/*Start contact sction */
+
+
+
+#contact .conntent .social i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact .conntent .social i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+
+
+#contact form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+/*End contact sction */
